@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+   
+    <title>New York Times Search</title>
 </head>
 <body>
     
@@ -14,49 +19,51 @@
 
 
 <form class="search">
-    Search Terms:<br>
-    <input type="text" name="firstname" class="searchTerms">
+    Search Terms:
+    <br>
+    <input type="text" name="searchTerms" class="searchTerms">
     <br>
     Number of Records to Retrieve:
     <br>
-    <input type="text" name="lastname" class="searchTerms">
+    <input type="text" name="recordNum" class="recordNum">
     Start Year (Optional):
     <br>
-    <input type="text" name="firstname" class="searchTerms">
+    <input type="text" name="startYear" class="startYear">
     <br>
     End Year:<br>
-    <input type="text" name="lastname" class="searchTerms">
+    <input type="text" name="endYear" class="endYear">
 
     <div>
-    <button>Search</button>
-    <button>Clear Results</button>
+    <button class="searchButtons">Search</button>
+    <button class="searchButtons">Clear Results</button>
     </div>
 
 
   </form>
 
   <div class ="results">
-        <section class="item">
+        <section class="itemOne">
             <p>1</p>
         </section>
 
-        <section class="item">
+        <section class="itemTwo">
             <p>2</p>
         </section>
 
-        <section class="item">
+        <section class="itemThree">
             <p>3</p>
         </section>
 
-        <section class="item">
+        <section class="itemFour">
             <p>4</p>
         </section>
 
-        <section class="item">
+        <section class="itemFive">
             <p>5</p>
         </section>
   </div>
 
     
 </body>
+<script src="nyt.js"></script>
 </html>
