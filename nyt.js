@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(document).ready(function () {
 
 
@@ -43,3 +44,5 @@ $(document).ready(function () {
 
 
 });
+=======
+>>>>>>> 8708571c60d5dca7a95b167c311ad0688c99108e
