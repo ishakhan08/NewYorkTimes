@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!---Reset CSS-->
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <!---Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <!---Group CSS Style-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!---Font Awesome Icons CSS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
    
     <title>New York Times Search</title>
 </head>
@@ -70,6 +75,10 @@
     <button class="searchButtons">Clear Results</button>
     </div>
 
+    <!---Banner Header / Logo-->
+    <header class="banner">
+        <h1>New York Times Search</h1>
+    </header>
 
   </form> -->
 
@@ -92,10 +101,76 @@
 
         <section class="itemFive">
             <p>5</p>
-        </section>
-  </div>
 
-    
+    <!---Container for all content-->
+    <div class="container-lg">
+
+        <form class="search, row-lg-10">
+            <!---Form input with description-->
+            <p class="row-2-lg">Search Terms:</p>
+            <input type="text" name="searchTerms" class="searchTerms">
+            <!---Form input with description-->
+            <p class="row-2-lg">Number of Records to Retrieve:</p>
+            <input type="text" name="lastname" class="searchTerms">
+            <!---Form input with description-->
+            <p class="row-2-lg">Start Year (Optional):</p>
+            <input type="text" name="firstname" class="searchTerms">
+            <!---Form input with description-->
+            <p class="row-2-lg">End Year:</p>
+            <input type="text" name="lastname" class="searchTerms">
+
+            <div>
+                <!---Search/Clear Buttons-->
+                <button class="row-1-lg">Search</button>
+                <button class="row-1-lg">Clear Results</button>
+            </div>
+        </form>
+
+        <br>
+
+        <!---Section for search results-->
+        <section class="results">
+            <!---Article for  individual search results-->
+            <article class="item, row-lg-10">
+                <p class="row-1-lg">1</p>
+            </article>
+            <!---Article for  individual search results-->
+            <article class="item, row-lg-10">
+                <p class="row-1-lg">2</p>
+            </article>
+            <!---Article for  individual search results-->
+            <article class="item, row-lg-10">
+                <p class="row-1-lg">3</p>
+            </article>
+            <!---Article for  individual search results-->
+            <article class="item, row-lg-10">
+                <p class="row-1-lg">4</p>
+            </article>
+            <!---Article for  individual search results-->
+            <article class="item, row-lg-10">
+                <p class="row-1-lg">5</p>
+            </article>
+        </section>
+
+        <!---Footer-->
+        <footer>©</footer>
+
+
+        <!---Div for fixed icons-->
+        <div>
+            <i class="fab fa-facebook"></i>
+        </div>
+
+
+    </div>
+
 </body>
-<script src="nyt.js"></script>
+
+    <!---Linked jQuery-->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!---Local JS-->
+    <script src="nyt.js"></script>
+
+
 </html>
