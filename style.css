@@ -20,3 +20,7 @@ form {
     border: 1px solid black;
     margin-top: 5%;
 }
+.form-group, .form-row {
+   text-align: left;
+   padding: 5px;
+}
