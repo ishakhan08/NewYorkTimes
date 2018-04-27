@@ -1,11 +1,12 @@
 h1 {
     color: white;
-    background-color:rgb(44, 44, 87);
-    text-align: center;
+    background-color:rgb(29, 29, 77);
+    text-align: top;
     margin-top: 10px;
     padding: 40px;
-    border-radius: 20px;
+    border-radius: 10px;
     font-family: lumira;
+    font-weight: bold;
 }
 body {
     width: 70%;
@@ -13,16 +14,12 @@ body {
     text-align: center;
 
 }
-form {
+form, .results {
     border: 2px solid rgb(29, 29, 77);
     margin-top: 5%;
     width: 104%;
     margin-left: -2%;
     border-radius: 5px;
-}
-.results {
-    border: 2px solid rgb(29, 29, 77);
-    margin-top: 5%;
 }
 .form-row, button {
    text-align: left;
@@ -45,12 +42,12 @@ form {
     text-align: left;
     padding: 5px;
     margin-top: -2%;
-    font-family: lumira;
+    font-family: initial;
     font-weight: bold;
 }
 .btn {
     margin-bottom: 10px;
-    margin-left: -77%;
+    margin-left: -76%;
     
 
 }
@@ -60,4 +57,21 @@ button {
     border-radius: 5px;
     font-weight: bold;
     
+}
+#fixedIcons {
+    position: relative;
+    /* margin-left: 80%;
+    margin-top: -30%; */
+    margin-left: 115%;
+    margin-top: -55%;
+    
+
+}
+i {
+    font-size: 300%;
+    margin-top: 10px;
+}
+.fa-newspaper {
+    font-size: 130%;
+
 }
