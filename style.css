@@ -20,6 +20,10 @@ form, .results {
     width: 104%;
     margin-left: -2%;
     border-radius: 5px;
+   
+}
+.results {
+    margin-bottom: 30px;
 }
 .form-row, button {
    text-align: left;
@@ -74,4 +78,13 @@ i {
 .fa-newspaper {
     font-size: 130%;
 
+}
+option {
+    background-color: rgb(212, 200, 200);
+}
+#headIcon {
+    font-size: 100%;
+}
+footer {
+    font-size: 200%;
 }
