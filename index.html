@@ -22,7 +22,7 @@
 <body>
 
     <header class="banner">
-        <h1>New York Times Search</h1>
+        <h1><i class="far fa-newspaper"></i>&nbsp; New York Times Search</h1>
     </header>
 
     <!--Container for all content-->
@@ -34,7 +34,7 @@
                 <!---Form input with description-->
                 <div class="form-group col-md-12">
                     <label for="search">Search Term</label>
-                    <input type="email" class="form-control" id="searchInput">
+                    <input type="text" class="form-control" id="searchInput">
                 </div>
             </div>
             <!---Form input with description-->
@@ -60,13 +60,12 @@
                     <option id="optionFive">5</option>
                 </select>
             </div>
+             <!---Search/Clear Buttons-->
+             <div class = "btn">
+            <button>Search</button>
+            <button>Clear Results</button>
+            </div>
 
-
-
-            <!---Search/Clear Buttons-->
-            <button class="btn btn-info">Search</button>
-            <button class="btn btn-primary">Clear Results</button>
-    </div>
     </form>
 
     <br>
@@ -101,8 +100,9 @@
 
 
     <!---Div for fixed icons-->
-    <div>
+    <div id ="fixed Icons">
         <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter-square"></i>
     </div>
 
 

@@ -14,25 +14,50 @@ body {
 
 }
 form {
-    border: 1px solid rgb(29, 29, 77);
+    border: 2px solid rgb(29, 29, 77);
     margin-top: 5%;
     width: 104%;
     margin-left: -2%;
+    border-radius: 5px;
 }
 .results {
-    border: 1px solid rgb(29, 29, 77);
+    border: 2px solid rgb(29, 29, 77);
     margin-top: 5%;
 }
-.form-group, .form-row, button {
+.form-row, button {
    text-align: left;
-   padding: 3px;
+   padding: 5px;
    margin-top: 1%;
 }
 .formTitle {
-    background-color:rgb(96, 104, 129);
+    background-color:rgb(29, 29, 77);
     color: white;
     text-align: left;
     font-weight: bold;
-    font-family: cursive;
     padding: 2px;
+   
+
+}
+.item {
+    margin-top: -20%;
+}
+.form-group {
+    text-align: left;
+    padding: 5px;
+    margin-top: -2%;
+    font-family: lumira;
+    font-weight: bold;
+}
+.btn {
+    margin-bottom: 10px;
+    margin-left: -77%;
+    
+
+}
+button {
+    background-color: rgb(29, 29, 77);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    
 }
