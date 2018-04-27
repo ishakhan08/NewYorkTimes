@@ -28,3 +28,11 @@ form {
    padding: 3px;
    margin-top: 1%;
 }
+.formTitle {
+    background-color:rgb(96, 104, 129);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 2px;
+}
