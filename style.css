@@ -14,13 +14,17 @@ body {
 
 }
 form {
-    border: 1px solid black;
+    border: 1px solid rgb(29, 29, 77);
+    margin-top: 5%;
+    width: 104%;
+    margin-left: -2%;
 }
 .results {
-    border: 1px solid black;
+    border: 1px solid rgb(29, 29, 77);
     margin-top: 5%;
 }
-.form-group, .form-row {
+.form-group, .form-row, button {
    text-align: left;
-   padding: 5px;
+   padding: 3px;
+   margin-top: 1%;
 }
