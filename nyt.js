@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 $(document).ready(function () {
-
+    //*** This is a test ***/
 
 
     var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
@@ -44,5 +43,3 @@ $(document).ready(function () {
 
 
 });
-=======
->>>>>>> 8708571c60d5dca7a95b167c311ad0688c99108e
