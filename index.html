@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="reset.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+    <title>New York Times Search</title>
 </head>
+
 <body>
-    
-<header class="banner, container-fluid">
-    <h1>New York Times Search</h1>
-</header>
+
+    <header class="banner, container-fluid">
+        <h1>New York Times Search</h1>
+    </header>
 
 
-<form class="search, col-lg-10">
-    Search Terms:
-    <br>
-    <input type="text" name="searchTerms" class="searchTerms">
-    <br>
-    Number of Records to Retrieve:
-    <br>
-    <input type="text" name="lastname" class="searchTerms">
-    Start Year (Optional):
-    <br>
-    <input type="text" name="firstname" class="searchTerms">
-    <br>
-    End Year:<br>
-    <input type="text" name="lastname" class="searchTerms">
+    <form class="search, col-lg-10">
+        <p class="col-2-lg">Search Terms:</p>
 
-    <div>
-    <button>Search</button>
-    <button>Clear Results</button>
-    </div>
+        <input type="text" name="searchTerms" class="searchTerms">
+
+        <p>Number of Records to Retrieve:</p>
+
+        <input type="text" name="lastname" class="searchTerms">
+        <p>Start Year (Optional):</p>
+
+        <input type="text" name="firstname" class="searchTerms">
+
+        <p>End Year:</p>
+
+        <input type="text" name="lastname" class="searchTerms">
+
+        <div>
+            <button>Search</button>
+            <button>Clear Results</button>
+        </div>
 
 
-  </form>
+    </form>
 
-  <div class ="results">
+    <div class="results">
         <section class="item">
             <p>1</p>
         </section>
@@ -56,8 +63,9 @@
         <section class="item">
             <p>5</p>
         </section>
-  </div>
+    </div>
 
-    
+<script src="nyt.js"></script>
 </body>
+
 </html>
